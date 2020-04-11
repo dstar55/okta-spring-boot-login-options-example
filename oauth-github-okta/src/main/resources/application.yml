@@ -6,14 +6,15 @@ spring:
       client:
         registration:
           github:
-            client-id: 9083a1517c6402ededd6
-            client-secret: aad2373eea31acc403b6dfa9772a4cae1f465c55
+            client-id: b4339eb1d2d6d915f336
+            client-secret: 02c7736a93987319e285c79b5a7b8d07269557b1
           okta:
-            client-id: 0oajicp5bk5T7HS6G0h7
-            client-secret: Lg1oFKftm1eYeTlFteIBF0bdR0l1iT1tAdctvADm
+            client-id: 0oa5hcq09ATvur0Jd4x6
+            client-secret: p1uOXMPbUt_5Ol0s919Tjwnl6CTvoDswqG3zv--y
         provider:
           okta:
-            authorization-uri: https://dev-533919.oktapreview.com/oauth2/v1/authorize
-            token-uri: https://dev-533919.oktapreview.com/oauth2/v1/token
-            user-info-uri: https://dev-533919.oktapreview.com/oauth2/v1/userinfo
-            jwk-set-uri: https://dev-533919.oktapreview.com/oauth2/v1/keys
+            issuer: https://dev-702677.okta.com/oauth2/default
+            authorization-uri: https://dev-702677.okta.com/oauth2/v1/authorize
+            token-uri: https://dev-702677.okta.com/oauth2/v1/token
+            user-info-uri: https://dev-702677.okta.com/oauth2/v1/userinfo
+            jwk-set-uri: https://dev-702677.okta.com/oauth2/v1/keys
